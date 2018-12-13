@@ -1,0 +1,122 @@
+body{ 
+	background: darkred;	
+}
+p {
+	font-family: tw cen mt;
+}
+html {
+	scroll-behavior: smooth;
+}
+img {
+	border-radius: 5%;
+}
+.main{
+	margin: 0px 0px 0px 0px;
+	position: fixed;	
+}
+ul.menu {
+    list-style-type: none;
+	margin:0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: indianred;
+	font-family: times new roman;
+	list-style:none;
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(6,1fr)
+}
+
+ul.menu li a {
+    display: block;
+    color: darkred;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+ul.menu li a:hover:not(.active) {color: lightsalmon;}
+
+.top {
+	margin: 0px 20px 0px 100px;
+	background: crimson;
+	color: white;
+	text-align: center;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr
+}
+.imglogo {
+	background: crimson;
+	color: lightsalmon;
+	text-align: left;
+
+}
+
+.fab {
+	padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	background: #222;
+    color: white;
+}
+.far {
+	padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+	background: #222;
+    color: white;
+
+}
+.info {
+	background: crimson;
+	color: lightsalmon;
+	text-align: left;
+	padding-left: 20px;
+}
+.educ {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+.seminar {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+} 
+.work {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+.skill {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+.cr {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
+
+.about {
+	background:lightsalmon;
+	color: firebrick;
+	text-align: left;
+	margin: 0px 20px 0px 100px;
+	padding-left: 30px;
+}
